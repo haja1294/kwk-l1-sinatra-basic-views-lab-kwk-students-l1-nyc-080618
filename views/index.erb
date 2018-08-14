@@ -16,4 +16,9 @@
  <%end%>
 
 
-  
+  <% comments= ["Your picture is so cute!","Love the dog!","Miss you :("]%>
+  <ol>
+    <% comments.each do |comment| %>
+    <li><% =comment %></li>
+<% end %>
+</ol>
